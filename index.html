@@ -1,135 +1,91 @@
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="This is the personal website of Mirjam de Bruin - Hoegée.">
-    <meta name="author" content="Mirjam de Bruin, together with Gerrit-Jan de Bruin">
-    <title>Mirjam de Bruin - Hoegée</title>
 
-    <link rel="canonical" href="https://forensicscientist.nl">
+<head>
+<meta charset="utf-8" />
+<meta name="author" content="Mirjam de Bruin, together with Gerrit-Jan de Bruin" />
+<meta name="description" content="This is the personal website of Mirjam de Bruin - Hoegée." />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<title>Mirjam de Bruin - Hoegée</title>
+<link rel="apple-touch-icon" href="/icon.png" sizes="180x180" />
+<link rel="canonical" href="https://forensicscientist.nl" />
+<link rel="icon" href="icons/favicon-32x32.png" sizes="32x32" type="image/png" />
+<link rel="icon" href="icons/favicon-16x16.png" sizes="16x16" type="image/png" />
+<link rel="icon" href="icons/icon.png" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+<link rel="stylesheet" href="style.css" />
+<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet" />
+<meta name="theme-color" content="#ffffff" />
+</head>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<body style="height: 100vh; perspective: 200px;">
+  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <a class="navbar-brand" href="/"><img src="icons/icon.png" style="height:30px;" />Mirjam de Bruin - Hoegée</a>
+    <!-- Allignment and hamburger menu on mobile devices -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hamburger"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="hamburger">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#projects" role="button" data-toggle="dropdown">Projects</a>
+          <div class="dropdown-menu dropdown-menu-right">
+            <a class="dropdown-item" href="#">FACING</a>
+            <a class="dropdown-item" href="#">Chemical Aerosol Research</a>
+            <a class="dropdown-item" href="#">Contact Transfer Risk Fentanyl</a>
+            <a class="dropdown-item" href="#">Authenticity features Euro banknotes</a>
+          </div>
+        </li>
+        <a class="nav-item nav-link" href="#about-me">About me</a>
+        <a class="nav-item nav-link" href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
 
-    <link rel="apple-touch-icon" href="/icon.png" sizes="180x180">
-    <link rel="icon" href="favicon-32x32.png" sizes="32x32" type="image/png">
-    <link rel="icon" href="favicon-16x16.png" sizes="16x16" type="image/png">
-    <link rel="icon" href="/icon.png">
-    <meta name="theme-color" content="#ffffff">
+  <div class="parallax" id="header"><img src="images/banner.jpg" class="img-fluid w-100" style="max-height: 40vh; object-fit: cover;"></div>
 
-    <style>
-      .container {max-width:960px;}
-      .parallax-container {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  overflow-x: hidden;
-  overflow-y: scroll;
-  perspective: 8px;
-  perspective-origin: 0%;
-  display: flex;
-}
-.background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transform: translateZ(0px);
-}
+  <div class="parallax bg-white" id="wrapper">
+    <div class="container">
+      <div class="row justify-content-center justify-content-sm-left" id="welcome">
 
-.foreground {
-  margin-top: auto;
-  margin-bottom: 50px;
-  transform-origin: 0;
-  transform: translateZ(3px) scale(0.625);
-}
+        <div class="col-6 col-sm-3 my-2"><img src="images/mirjamdebruinhoegee.png" class="img-fluid" /></div>
+        <div class="col-12 col-sm-9">
+          <h1>Welcome</h1>
+          <p>Apart from working as a forensic analytical scientist, I love playing sports and making creative products. I have a background in chemistry and I currently work as a scientist at TNO in the unit defence, safety and security. My research focuses on protection against highly toxic chemicals, with the emphasis on Contact Risk, Aerosol Research and Chemical Profiling.</p>
+        </div>
+      </div>
 
-.foreground h1 {
-  font-size: 36px;
-}
-      </style>
-  </head>
-  <body>
+      <div class="row" id="projects">
+        <div class="col-12"><h1>Projects</h1></div>
+          <div class="col-6 col-sm-3"><img class="img-thumbnail" src="images/facing.png" alt="degradation of sulphur mustard" /><p class="text-center">FACING</p></div>
+          <div class="col-6 col-sm-3"><img class="img-thumbnail" src="images/aerosol.png" alt="aerosol" /><p class="text-center">Chemical Aerosol Research</p></div>
+          <div class="col-6 col-sm-3"><img class="img-thumbnail" src="images/lab.jpg" alt="lab" /><p class="text-center">Contact Transfer Risk Fentanyl</p></div>
+          <div class="col-6 col-sm-3"><img class="img-thumbnail w-100" src="images/5euro.png" alt="5 euro banknote" /><p class="text-center">Authenticity features Euro banknotes</p></div>
+        </div>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="/"><img src="icon.png" style="height:30px;" />Mirjam de Bruin - Hoegée</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ml-auto">
-          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">Projects</a>
-            <div class="dropdown-menu dropdown-menu-right">
-              <a class="dropdown-item" href="#">FACING</a>
-              <a class="dropdown-item" href="#">Chemical Aerosol Research</a>
-              <a class="dropdown-item" href="#">Contact Transfer Risk Fentanyl</a>
-              <a class="dropdown-item" href="#">Authenticity features Euro banknotes</a>
+        <div class="row justify-content-center justify-content-sm-left" id="about-me">
+          <div class="col-12"><h1>About me</h1></div>
+            <div class="col-12 col-sm-9 align-self-center">
+              <p>I have always been interested in learning how things work. When I did my bachelor chemistry, I was amazed to understand nature and products to the molecular level. After my bachelor I chose to do the master Forensic Science. Forensic Science is the application of science in a legal context. For example, scientific innovations contribute to protecting people and lead to new evidence in court. This was for me the perfect combination of science and helping to make the world better. I know it sounds ambitious, but small changes can make a big difference.</p>
+              <blockquote class="blockquote">"We aim to better prepare customers in case of a chemical attack or accident."</blockquote>
+              <p>As a physical chemical analytical scientist, I work in the field of aerosol research and analytical chemistry. Chemicals can be released as an aerosol and these small particles in the air can cause health effects. Think about soot particles and smoke that contribute to air pollution. However, there are also highly toxic chemicals that cause immediate health effects. I study the characteristics of aerosols and the detection and protection against it.</p>
+              <p>Soon I start with something new. Together with the University of Amsterdam and TNO, I wrote a proposal for PhD research about Forensic Attribution for CWA INtelliGence (FACING). After an incident with chemical warfare agents (CWAs), it is important to address the question of its origin to accurately reconstruct events and find the persons and institutions responsible. Forensic chemical attribution can help to answer this question. The proposal is granted by the TNO DO-AIO fund of the Dutch Ministry of Defence and I will carry out my research at both the university of Amsterdam and my current department at TNO. I look forward to starting the research!</p>
+              <blockquote class="blockquote">“After an incident with chemical warfare agents, it is important to address the question of its origin to accurately reconstruct events and find the persons and institutions responsible.”</blockquote>
             </div>
-          </li>
-          <a class="nav-item nav-link" href="#">About me</a>
-          <a class="nav-item nav-link" href="#">Contact</a>
-        </div>
-      </div>
-    </nav>
+            <div class="col-6 col-sm-3"><img src="images/about-me.jpg" class="img-fluid"/></div>
+          </div>
 
-    <div class="parallax-container">
-      <div class="background">
-        <img class="background__image" src="Banner.jpg" />
-      </div>
-      <div class="foreground">
-        <div class="foreground__content">
-          <h1>Oooo, parallax</h1>
+          <footer class="row justify-content-center" id="contact">
+            <div class="col-12"><h1>Contact</h1></div>
+            <div class="col-2"><img src="icons/mail.png" /><p class="text-center  text-secondary d-none d-lg-block">mirjam.debruin@tno.nl</p></div>
+            <div class="col-2"><img src="icons/phone.png" /><p class="text-center text-secondary d-none d-lg-block">06-11682158</p></div>
+            <div class="col-2"><img src="icons/location.png" /><p class="text-center text-secondary d-none d-lg-block">TNO, <span>Lange Kleiweg 137</span>, Rijswijk</p></div>
+            <div class="col-2"><img src="icons/linkedin.png" /><p class="text-center text-secondary d-none d-lg-block">mirjamdebruinhoegee</p></div>
+            <div class="col-2"><img src="icons/orcid.png" /><p class="text-center text-secondary d-none d-lg-block">0000-0001-7167-6364</p></div>
+          </footer>
         </div>
       </div>
     </div>
-
-
-<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 scene" id="projects">
-    <div>
-        <h1>Projects</h1>
-    </div>
-  <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
-    <div class="my-3 py-3">
-      <h2 class="display-5">Another headline</h2>
-      <p class="lead">And an even wittier subheading.</p>
-    </div>
-    <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-  </div>
-  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-    <div class="my-3 p-3">
-      <h2 class="display-5">Another headline</h2>
-      <p class="lead">And an even wittier subheading.</p>
-    </div>
-    <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-  </div>
-</div>
-
-<div class="">
-
-</div>
-
-
-
-<footer class="container py-5">
-  <div class="row">
-    <div class="col-12 col-md">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24" focusable="false"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
-      <small class="d-block mb-3 text-muted">&copy; 2017-2019</small>
-    </div>
-    <div class="col-6 col-md">
-    </div>
-    <div class="col-6 col-md">
-    </div>
-    <div class="col-6 col-md">
-    </div>
-    <div class="col-6 col-md">
-    </div>
-  </div>
-</footer>
+  </body>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script></body>
