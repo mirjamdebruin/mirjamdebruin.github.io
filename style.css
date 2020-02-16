@@ -1,19 +1,34 @@
-/* Parallax effect */
-@media (min-width: 350px){
-  .parallax {position: absolute; left: 0; right: 0; bottom: 0;}
-  #header {left: -10px; top: 3rem; transform: translateZ(-200px) scale(2); z-index: 3;}
-  #wrapper {transform: translateZ(0); z-index: 4;}
-}
-#wrapper {top: 15vh;}
-@media screen and (min-aspect-ratio: 1/1){#wrapper {top: 40vh;}}
-body, html {overflow: hidden auto;}
-
-/* Prevent breaking within spans. */
-span {display: inline-block;} 
-
-/* Other effects */
+/* Some specific changes to lay-out. */
 * {font-family: 'Lato', sans-serif;}
 h1, h2 {color: rgb(34,110,147); margin-bottom: .5rem;}
 .row {margin: 1rem 0;}
 blockquote {color: rgb(34,110,147);}
 footer img {max-width:40px!important; margin-left: auto; margin-right: auto; display:block;}
+
+/* Prevent breaking within spans. */
+span {display: inline-block;} 
+
+/* Header font */
+.header-title h1 {color: white; text-align: center;}
+
+/* 
+The parallax effect is created making use of perspective and transform into the z-plane using CSS only.
+The header-box is the box containing 
+*/
+
+
+@media (min-width: 350px){
+  .full-width {position: absolute; left: 0; right: 0; bottom: 0;}
+  .header-box {top: 3rem; transform: translateZ(-200px) scale(2); z-index: 3;}
+}
+.img-overlay{background-color: black; opacity: .4; height: 40vh; width:100%; position: absolute;}
+.header-box img {width: 100%; height: auto; max-height: 40vh; object-fit: cover; position: absolute;}
+.header-title {top: -20vh; height: 40vh; z-index: 99; align-content:center; }
+
+.full-container {top: 15vh; background: white;}
+@media (min-width: 350px){
+  .full-container {transform: translateZ(0); z-index: 4;}
+}
+@media screen and (min-aspect-ratio: 1/1){.full-container {top: 40vh;}}
+
+body, html {overflow: hidden auto;}
