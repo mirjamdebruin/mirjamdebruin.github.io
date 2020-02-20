@@ -1,5 +1,6 @@
 /* Some specific changes to lay-out. */
 * {font-family: 'Lato', sans-serif;}
+.navbar-brand img {height: 30px;}
 h1, h2 {color: rgb(34,110,147); margin-bottom: .5rem;}
 .row {margin: 1rem 0;}
 blockquote {color: rgb(34,110,147);}
