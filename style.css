@@ -5,6 +5,10 @@ h1, h2 {color: rgb(34,110,147); margin-bottom: .5rem;}
 .row {margin: 1rem 0;}
 blockquote {color: rgb(34,110,147);}
 footer img {max-width:40px!important; margin-left: auto; margin-right: auto; display:block;}
+a {color: black;}
+a:hover {color: black;}
+#projects * p {text-align: center;}
+#contact * p {color: rgb(34, 110, 147); text-align: center;}
 
 /* Prevent breaking within spans. */
 span {display: inline-block;} 
