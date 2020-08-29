@@ -15,6 +15,8 @@ h1, h2 {color: rgb(34,110,147); margin-bottom: .5rem;}
 blockquote {color: rgb(34,110,147);}
 footer img {max-width:40px!important; margin-left: auto; margin-right: auto; display:block;}
 #projects * p {text-align: center;}
+#projects .item {flex: 0 0 50%; padding: 0 5px;}
+@media (min-width: 576px){ #projects .item {flex: 0 0 20%; padding: 0 15px;} }
 #contact * p {color: rgb(34, 110, 147); text-align: center;}
 
 /* Prevent breaking within spans. */
