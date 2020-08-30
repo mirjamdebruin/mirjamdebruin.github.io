@@ -12,7 +12,6 @@ h1, h2 {color: rgb(34,110,147); margin-bottom: .5rem;}
 a {color: black;}
 a:hover {color: black;}
 .row {margin: 1rem 0;}
-.row::before {height: 64px; content: "", display:block;}
 blockquote {color: rgb(34,110,147);}
 footer {margin: 3em 0!important;}
 
