@@ -14,6 +14,7 @@ a:hover {color: black;}
 .row {margin: 1rem 0;}
 blockquote {color: rgb(34,110,147);}
 footer {margin: 3em 0!important;}
+.references p {font-size: small; margin-bottom: .5rem;}
 
 footer img {max-width:40px!important; margin-left: auto; margin-right: auto; display:block;}
 #projects * p {text-align: center;}
