@@ -35,7 +35,7 @@ The header-box is the box containing
 .banner::after {content:""; background-color:rgba(0,0,0,.3); position: absolute; top:0; left:0; height: 100%; width: 100%;}
 .banner img {width: 100%; height: 40vh; position: absolute; top:0; left: 0; object-fit: cover;}
 .banner h1 {position: absolute; top: 0; left: 0; height: 40vh; line-height: 40vh; text-align: center; width: 100%; color: white; z-index: 1;}
-@media (min-width: 576px){.banner img {transform: translateZ(-200px) scale(2); top: -20vh;}} 
+/* @media (min-width: 576px){.banner img {transform: translateZ(-200px) scale(2); top: -20vh;}}  */
 
 .full-container {background: white; transform: translateZ(0);}
 
