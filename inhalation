@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8" />
+<meta name="author" content="Mirjam de Bruin-Hoegee" />
+<meta name="description" content="Real-time characterization of chemical threat agent aerosols for improvement ofinhalation studies." />
+<meta name="keywords" content="CBRN, Aersol, Toxicology, Detection, Inhalation, Chemical Threat Agents, UvA, TNO" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta property="og:title" content="Mirjam de Bruin - Hoegée" />
+<meta property="og:description" content="Literature thesis about detection and profiling of chemical warfare agents in dried blood spots." />
+<meta property="og:image" content="images/Science.jpg" />
+<meta property="og:url" content="https://forensicscientist.nl/bloodspots.html" />
+<meta name="twitter:card" content="card" />
+<title>Mirjam de Bruin - Hoegée</title>
+<link rel="apple-touch-icon" href="/icon.png" sizes="180x180" />
+<link rel="canonical" href="https://forensicscientist.nl" />
+<link rel="icon" href="icons/favicon-32x32.png" sizes="32x32" type="image/png" />
+<link rel="icon" href="icons/favicon-16x16.png" sizes="16x16" type="image/png" />
+<link rel="icon" href="icons/icon.png" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+<link rel="stylesheet" href="style.css" />
+<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<meta name="theme-color" content="#ffffff" />
+
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//analytics.forensicscientist.nl/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
+</head>
+
+<body style="height: 100vh; perspective: 200px;">
+  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <a class="navbar-brand" href="/"><img src="icons/icon.png" />Mirjam de Bruin - Hoegée</a>
+    <!-- Allignment and hamburger menu on mobile devices -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hamburger"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="hamburger">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-item nav-link" href="/">Home</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown">Projects</a>
+          <div class="dropdown-menu dropdown-menu-right">
+            <a class="dropdown-item" href="facing.html">FACING</a>
+            <a class="dropdown-item" href="dispersion.html">Chemical Dispersion Devices</a>
+            <a class="dropdown-item" href="plant.html">Plant biomarkers</a>
+            <a class="dropdown-item" href="PosterChlorine.pdf" target="_blank">Chlorine biomarkers</a>
+            <a class="dropdown-item" href="PosterFentanyl.pdf" target="_blank">Blood reveals origin</a>
+            <a class="dropdown-item" href="fentanyl.html">Fentanyl profiling in blood</a>
+            <a class="dropdown-item" href="profiling.html">CWA Profiling</a>
+            <a class="dropdown-item" href="opioids.html">Opioid poisoning</a>
+            <a class="dropdown-item" href="bloodspots.html">Dried blood spots</a>
+            <a class="dropdown-item" href="inhalation.html">Inhalation Threat</a>
+            <a class="dropdown-item" href="aerosol.html">Aerosol Research</a>
+            <a class="dropdown-item" href="contactrisk.html">Contact Risk Fentanyl</a>
+            <a class="dropdown-item" href="decontamination.html">Decontamination</a>
+            <a class="dropdown-item" href="banknotes.pdf" target="_blank">Authenticity features banknotes</a>
+          </div>
+        </li>
+        <a class="nav-item nav-link" href="/#about-me">About me</a>
+        <a class="nav-item nav-link" href="/#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="banner"><img src="images/Science_CW.jpg"><h1>Detecting nerve agent biomarkers in dried blood spots</h1></div>
+
+  <div class="full-container">
+    <div class="container">
+      <div class="row justify-content-center justify-content-sm-left">
+        <div class="col-12">
+          <p>The toxicity of aerosols is dependent on many factors, such as size, shape, charge and composition.  The COVID-19 pandemic has dramatically emphasized the knowledge gap and lack of consensus regarding airborne transmission and subsequent health risks. Therefore, it is important to combine several detection methods to fully understand the appearance of the aerosols. In this research, we built an aerosol system with real-time detection, which we validated for characterizing chemical threat agents to investigate its health risk.</p>
+          <p>One of the remaining challenges in chemical impurity profiling concerns the stability of the actual sample during sampling, transportation, storage and analysis. In this study we were able to identify stable biomarkers in the dried blood and measure the cholinesterase activity using a mobile test kit months after exposure. Both LC-MS/MS and GC–MS/MS were used for unambiguous verification.</p>
+          <blockquote class="blockquote">"The COVID-19 pandemic has dramatically emphasized the knowledge gap regarding airborne transmission."</blockquote>
+          <div class="d-flex">
+              <p>Read more about this research in 
+              <a href="https://www.tandfonline.com/doi/full/10.1080/08958378.2023.2254323" target="_blank">Inhalation Toxicology</a><p>
+          </div>
+        </div>
+      </div>
+
+      <footer class="row justify-content-center" id="contact">
+        <div class="col-12"><h1>Contact</h1></div>
+        <div class="col-2 col-md"><a href="mailto:mirjam.debruin@tno.nl"><img src="icons/mail.jpg" /><p class="d-none d-lg-block">mirjam.debruin@tno.nl</p></a></div>
+        <div class="col-2 col-md"><a href="tel:+31611682158"><img src="icons/phone.jpg" /><p class="d-none d-lg-block">06-11682158</p></a></div>
+        <div class="col-2 col-md"><img src="icons/location.jpg" /><p class="d-none d-lg-block" style="margin: 0;">
+          <a href="https://goo.gl/maps/2kb4faX2MYYAUMrr6" target="_blank">TNO, Rijswijk</a><br /> 
+          <a href="https://goo.gl/maps/ozYyxCrEmGRQ9Qri9" target="_blank">University of Amsterdam</a>
+        </p></a></div> 
+        <div class="col-2 col-md"><a href="http://linkedin.com/in/mirjamdebruinhoegee" target="_blank"><img src="icons/linkedin.jpg" /><p class="d-none d-lg-block">mirjamdebruinhoegee</p></a></div>
+        <div class="col-2 col-md"><a href="https://orcid.org/0000-0001-7167-6364" target="_blank"><img src="icons/orcid.jpg" /><p class="d-none d-lg-block">0000-0001-7167-6364</p></a></div>
+        <div class="col-2 col-md"><a href="https://www.researchgate.net/profile/Mirjam_De_Bruin-Hoegee" target="_blank"><img src="icons/researchgate.jpg" /><p class="d-none d-lg-block">Mirjam De Bruin-Hoegee</p></a></div>
+      </footer>
+
+    </div>
+  </body>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script></body>
+</html>
